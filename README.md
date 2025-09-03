@@ -1,1 +1,1 @@
-Debian package builder crosscompiling for arm.
+Crosscompiling image for arm 64
