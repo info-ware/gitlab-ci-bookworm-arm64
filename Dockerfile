@@ -12,7 +12,7 @@ RUN apt-get install -y qt6-base-dev
 
 
 RUN dpkg --add-architecture arm64
-RUN apt-get update && apt-get install -y libasound2-dev:armhf libgles2-mesa-dev:arm64
+RUN apt-get update && apt-get install -y libasound2-dev:arm64 libgles2-mesa-dev:arm64
 RUN apt-get install -y libboost-filesystem-dev:arm64
 RUN apt-get install -y libcurl4-openssl-dev:arm64
 RUN apt-get install -y zlib1g-dev:arm64
