@@ -1,4 +1,4 @@
-FROM debian:bookworm
+FROM debian:trixie
 
 RUN apt-get update && apt-get install -y gcc-aarch64-linux-gnu g++-aarch64-linux-gnu build-essential devscripts cmake debhelper dh-exec pkg-config libboost-all-dev
 RUN apt-get install -y libboost-filesystem-dev 
